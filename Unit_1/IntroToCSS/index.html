@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to CSS</title>
+    <!-- This is where I'm going to connect my CSS file -->
+    <link rel="stylesheet" href="./styles.css"> 
+    <!-- /* a "link" tag is used to connect an external css file to html file. Right now we are using a "relative path" to connect our CSS page.*/ -->
+    <style>
+        a {
+            color: black;
+        }
+    </style>
+    <!-- I can write normal css within this style tag -->
+</head>
+<body>
+<nav>
+<!-- To copy a line we can select it with our cursor and hold option, shift, then down or up to copy to above or below line, can also copy multiple lines -->
+
+<a href="#a" class="btn">Home</a>   
+<a href="#b" class="btn">News</a>  
+<span>
+<a href="#c" class="btn">Contact</a> 
+</span>  
+<a href="#d" class="btn">About</a>   
+</nav>
+
+<a href="#e" class="btn">External Link</a>
+
+    <div>
+        <h1 class="header">This is my Intro to CSS Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsum dignissimos fugiat error facilis est vero praesentium veritatis assumenda aspernatur quos veniam deleniti impedit voluptatibus, facere minima nulla quis rerum.</p>
+        <h1 class="header">This is my "Class" Example</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis sapiente, voluptates necessitatibus quasi obcaecati, dolor repellendus corrupti expedita consectetur suscipit magnam voluptas nulla laboriosam saepe rem eius quos soluta doloremque?</p>
+        <h1 class="header" id="unique">This is my ID Example</h1>
+        <!-- These details for class and id are placed inside of the first h1 tag (between the carrots)-->
+    </div>
+    
+    
+</body>
+</html>
