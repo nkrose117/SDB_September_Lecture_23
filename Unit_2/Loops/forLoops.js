@@ -198,3 +198,29 @@ for ( doggo of dogArray ) {
 }
 
 
+
+
+// Practice
+
+for (i = 2; i <= 20; i++) {
+    console.log(i);
+}
+
+// this gave numbers from 1-20.
+
+for (let i = 1; i <= 30; i++){
+    if (i % 15 == 0){
+        console.log('turtle monkey')
+    } else if (i % 3 == 0){
+        console.log('monkey')
+    } else if (i % 5 == 0){
+        console.log('turtle')
+    } else {
+        console.log(i)
+    }
+}
+
+
+   
+
+

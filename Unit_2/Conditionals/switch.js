@@ -39,4 +39,24 @@ switch (true) {
         break;
     default:
         console.log('did not work');
+    
+}
+
+
+// Practice
+
+let animal = "monkey" 
+
+switch (animal) {
+    case "monkey":
+        console.log('monkey is a turtle');
+        break;
+    case "sloth":
+        console.log('sloth is a turtle');
+        break;
+    case "turtle":
+        console.log('turtle is a turtle!');
+        break;
+    default:
+        console.log('Im sorry animal, I dont know what you are.')
 }

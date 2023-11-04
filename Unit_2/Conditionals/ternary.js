@@ -40,6 +40,16 @@ if (x == 0) {
 (x == 0) ? console.log('Hello!') : (x < 0) ? console.log("Hi!") : console.log("Goodbye!");
 
 // Other way to write ternary
+let x = 12;
+
 (x == 0) ? console.log("Hello! V2") 
 : (x < 0) ? console.log("Hi! V2") 
 : console.log("Goodbye! V2");
+
+
+let numba = 11;
+
+(numba<10) ? console.log('shweet!') : console.log('super shweet!');
+
+
+

@@ -8,7 +8,7 @@ Multi-Line Comment:
 
 /* 
 
-Variables are named containers for storing data values.
+Variables are named-containers for storing data values.
 
 We name the variables so that we can refer to them and the values they hold at a later time.  Consider that we are naming these variables to help us be directed to a value type.
 
@@ -73,6 +73,7 @@ let fullN = firstName + lastName;
     .log(), this is the log method of the console, log will print whatever it is passed.
 */
 
+console.log(fullN);
 console.log(fullName); // this gave me Nick Rose
 
 console.log(2+2); // this gave me 4
